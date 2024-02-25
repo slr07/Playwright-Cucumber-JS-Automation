@@ -7,7 +7,7 @@
     "demoTest":"BROWSER=chromium npx cucumber-js --tags='@test'"
   },
   "keywords": [],
-  "author": "",
+  "author": "s.reddy",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.41.2",
