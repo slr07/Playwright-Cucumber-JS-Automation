@@ -1,0 +1,24 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": [
+      "tests/Features/*.feature"
+    ],
+    "format": [
+      "progress-bar",
+      "usage:reports/usage.txt",
+      "html:reports/cucumber-report.html",
+      "json:reports/cucumber-report.json",
+      "rerun:reports/failedSteps.txt"
+    ],
+    "publish": true,
+    "dryRun": false,
+    "retry": 1,
+    "require": [
+      "tests/runner/hooks.js",
+      "tests/Steps_Def/*.js"
+    ]
+  }
+}
