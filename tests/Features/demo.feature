@@ -1,5 +1,5 @@
 @test
-Feature: Verify BigCommerce Demo Scenarios for NoFraud Checkout
+Feature: Verify Playwright page
 
 
   Scenario: Verify Playwright page
